@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Branches>
+    <Branch id="1">
+        <adress>address1</adress>
+        <Customers>
+            <Customer id="1">
+                <firstName>FName1</firstName>
+                <lastName>LName1</lastName>
+                <Login id="1">
+                    <Account id="1">
+                        <active>true</active>
+                        <balance>54500.0</balance>
+                    </Account>
+                    <name>Nick1</name>
+                    <password>password1</password>
+                </Login>
+                <phone>+380504340405</phone>
+            </Customer>
+            <Customer id="1">
+                <firstName>FName2</firstName>
+                <lastName>LName2</lastName>
+                <Login id="2">
+                    <Account id="2">
+                        <active>false</active>
+                        <balance>37800.0</balance>
+                    </Account>
+                    <name>Nick2</name>
+                    <password>password2</password>
+                </Login>
+                <phone>+380990880586</phone>
+            </Customer>
+        </Customers>
+        <Employees>
+            <Employee id="1">
+                <firstName>FirstName1</firstName>
+                <lastName>LastName1</lastName>
+                <position>Loan processor</position>
+                <salary>23450.0</salary>
+            </Employee>
+            <Employee id="2">
+                <firstName>FirstName2</firstName>
+                <lastName>LastName2</lastName>
+                <position>Mortgage consultant</position>
+                <salary>29075.0</salary>
+            </Employee>
+        </Employees>
+        <phone>044-356-35-05</phone>
+    </Branch>
+    <Branch id="2">
+        <adress>address2</adress>
+        <Customers>
+            <Customer id="1">
+                <firstName>FName1</firstName>
+                <lastName>LName1</lastName>
+                <Login id="1">
+                    <Account id="1">
+                        <active>true</active>
+                        <balance>54500.0</balance>
+                    </Account>
+                    <name>Nick1</name>
+                    <password>password1</password>
+                </Login>
+                <phone>+380504340405</phone>
+            </Customer>
+            <Customer id="1">
+                <firstName>FName2</firstName>
+                <lastName>LName2</lastName>
+                <Login id="2">
+                    <Account id="2">
+                        <active>false</active>
+                        <balance>37800.0</balance>
+                    </Account>
+                    <name>Nick2</name>
+                    <password>password2</password>
+                </Login>
+                <phone>+380990880586</phone>
+            </Customer>
+        </Customers>
+        <Employees>
+            <Employee id="1">
+                <firstName>FirstName1</firstName>
+                <lastName>LastName1</lastName>
+                <position>Loan processor</position>
+                <salary>23450.0</salary>
+            </Employee>
+            <Employee id="2">
+                <firstName>FirstName2</firstName>
+                <lastName>LastName2</lastName>
+                <position>Mortgage consultant</position>
+                <salary>29075.0</salary>
+            </Employee>
+        </Employees>
+        <phone>057-096-05-25</phone>
+    </Branch>
+</Branches>
