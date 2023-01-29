@@ -25,7 +25,7 @@ public class Branches {
         String res = "";
         try {
             for (Field field : fields) {
-                res += field.getName() + " :\n" + field.get(this);
+                res += field.getName() + " :\n" + " " + field.get(this);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -33,4 +33,5 @@ public class Branches {
 
         return res;
     }
+
 }

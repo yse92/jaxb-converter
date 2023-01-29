@@ -76,13 +76,12 @@ public class Employee {
         String res = "{";
         try {
             for (Field field : fields) {
-                res += field.getName() + " : " + field.get(this);
+                res += field.getName() + " : " + field.get(this) + ", ";
             }
             res += "}";
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         return res;
     }
 }

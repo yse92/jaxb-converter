@@ -64,7 +64,7 @@ public class Login {
         String res = "{";
         try {
             for (Field field : fields) {
-                res += field.getName() + " : " + field.get(this);
+                res += field.getName() + " : " + field.get(this) + ", ";
             }
             res += "}";
         } catch (Exception e) {

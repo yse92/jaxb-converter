@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Generator {
-    public static void generate() {
+    public static Branches generateBranches() {
         List<Branch> branchesList = new ArrayList<>();
         List<Employee> employeeList = new ArrayList<>();
         List<Customer> customerList = new ArrayList<>();
@@ -33,5 +33,6 @@ public class Generator {
         branchesList.add(branch2);
 
         branches.setBranches(branchesList);
+        return branches;
     }
 }

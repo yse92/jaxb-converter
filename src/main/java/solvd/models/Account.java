@@ -52,6 +52,6 @@ public class Account {
                 "id=" + id +
                 ", balance=" + balance +
                 ", isActive=" + isActive +
-                '}';
+                "}\n";
     }
 }
