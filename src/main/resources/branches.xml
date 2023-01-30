@@ -4,21 +4,23 @@
         <adress>address1</adress>
         <Customers>
             <Customer id="1">
-                <firstName>FirstName1</firstName>
-                <lastName>LastName1</lastName>
+                <dateOfBirth>15-10-1992</dateOfBirth>
+                <firstName>FName1</firstName>
+                <lastName>LName1</lastName>
                 <Login id="1">
                     <Account id="1">
                         <active>true</active>
-                        <balance>505050.0</balance>
+                        <balance>54500.0</balance>
                     </Account>
-                    <name>Nickname1</name>
+                    <name>Nick1</name>
                     <password>password1</password>
                 </Login>
                 <phone>+380504340405</phone>
             </Customer>
-            <Customer id="2">
-                <firstName>FirstName2</firstName>
-                <lastName>LastName2</lastName>
+            <Customer id="1">
+                <dateOfBirth>12-09-1998</dateOfBirth>
+                <firstName>FName2</firstName>
+                <lastName>LName2</lastName>
                 <Login id="2">
                     <Account id="2">
                         <active>false</active>
@@ -50,27 +52,29 @@
         <adress>address2</adress>
         <Customers>
             <Customer id="1">
-                <firstName>FirstName1</firstName>
-                <lastName>LastName1</lastName>
+                <dateOfBirth>15-10-1992</dateOfBirth>
+                <firstName>FName1</firstName>
+                <lastName>LName1</lastName>
                 <Login id="1">
                     <Account id="1">
                         <active>true</active>
                         <balance>54500.0</balance>
                     </Account>
-                    <name>Nickname1</name>
+                    <name>Nick1</name>
                     <password>password1</password>
                 </Login>
                 <phone>+380504340405</phone>
             </Customer>
             <Customer id="1">
-                <firstName>FirstName2</firstName>
-                <lastName>LastName2</lastName>
+                <dateOfBirth>12-09-1998</dateOfBirth>
+                <firstName>FName2</firstName>
+                <lastName>LName2</lastName>
                 <Login id="2">
                     <Account id="2">
                         <active>false</active>
                         <balance>37800.0</balance>
                     </Account>
-                    <name>Nickname2</name>
+                    <name>Nick2</name>
                     <password>password2</password>
                 </Login>
                 <phone>+380990880586</phone>

@@ -2,14 +2,18 @@ package solvd.util;
 
 import solvd.models.*;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Generator {
-    public static Branches generateBranches() {
+    public static Branches generateBranches() throws ParseException {
         List<Branch> branchesList = new ArrayList<>();
         List<Employee> employeeList = new ArrayList<>();
         List<Customer> customerList = new ArrayList<>();
+
+        SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");
 
         Employee employee1 = new Employee(1, "FirstName1", "LastName1", "Loan processor", 23450f);
         Employee employee2 = new Employee(2, "FirstName2", "LastName2", "Mortgage consultant", 29075f);
@@ -17,8 +21,8 @@ public class Generator {
         Account account2 = new Account(2, 37800, false);
         Login login1 = new Login(1, "Nick1", "password1", account1);
         Login login2 = new Login(2, "Nick2", "password2", account2);
-        Customer customer1 = new Customer(1, "FName1", "LName1", "+380504340405", login1);
-        Customer customer2 = new Customer(1, "FName2", "LName2", "+380990880586", login2);
+        Customer customer1 = new Customer(1, "FName1", "LName1", "+380504340405", df.parse("15-10-1992"), login1);
+        Customer customer2 = new Customer(1, "FName2", "LName2", "+380990880586", df.parse("12-09-1998"), login2);
         Branches branches = new Branches();
 
         employeeList.add(employee1);

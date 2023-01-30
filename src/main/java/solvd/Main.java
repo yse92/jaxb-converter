@@ -6,9 +6,10 @@ import solvd.util.FilePropertiesUtil;
 import solvd.util.Generator;
 
 import javax.xml.bind.JAXBException;
+import java.text.ParseException;
 
 public class Main {
-    public static void main(String[] args) throws JAXBException {
+    public static void main(String[] args) throws JAXBException, ParseException {
 
         /* Initialize bank hierarchy */
 
@@ -16,7 +17,7 @@ public class Main {
 
         /* Object to XML */
 
-        //JaxbConverter.marshall(branches, new FilePropertiesUtil().getPath());
+        //JaxbConverter.marshall(branches, new FilePropertiesUtil().getPath()); //OK
 
         /* XML to Object */
 
